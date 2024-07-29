@@ -1,8 +1,8 @@
 import BatteryReplacement from '@/components/ServicesTiles/BatteryReplacement'
-import Container from '@/components/ui/layouts/Container'
 import useScrollGrowHook from '@/hooks/ScrollGrowHook';
 import React from 'react'
 import { motion } from 'framer-motion'
+import Container from '@/components/layouts/Container';
 
 const ServicesSection = () => {
     const { style, componentRef } = useScrollGrowHook();

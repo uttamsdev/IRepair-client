@@ -1,7 +1,7 @@
 import { Button } from '@/components/ui/button'
-import Container from '@/components/ui/layouts/Container'
 import React from 'react'
 import { motion, stagger } from 'framer-motion'
+import Container from '@/components/layouts/Container'
 
 const HeroSection = () => {
     const intro = {
